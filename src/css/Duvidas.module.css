@@ -1,0 +1,112 @@
+.corpo_duvidas{
+    width: 100%;
+    height: 800px;
+    background-color:#3B4047;
+    float: left;
+}
+
+.corpo_duvidas h1{
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    font-size: 50px;
+    font-family: 'fonte1';
+}
+
+.formulario { 
+
+    max-width: 800px;
+    overflow: hidden ; 
+    margin: 50px auto;
+    background: #fff; 
+    box-shadow: 1px 0px 1.2px 0px #e3e3e3; 
+    border-radius: 3px; 
+    padding: 1em; 
+    font-family: 'fonte1';
+  
+  }
+  
+  .formulario .title { 
+  
+    width: 100%; 
+    float:left; 
+    margin-bottom:1em; 
+    font-size:1.5em; 
+    font-weight: 300; 
+    text-align: center; 
+    border-bottom: 1px #eceaea solid; 
+    padding-bottom: 1em;
+    color: #6d7502; 
+  
+  }
+  
+  
+  .formulario .label { 
+     
+    width:100%;
+    float:left; 
+    margin-bottom:10px;
+  
+  }
+  
+  .formulario .label span { 
+  
+    width: 100%; 
+    float: left;
+    color: #393838;
+    margin-bottom: 3px; 
+  
+  }
+  
+  .formulario .campo {
+  
+    color: #393838;
+    font-family: 'open_sansregular';
+    font-size: 16px;
+    border-radius: 3px;
+    line-height: 20px;
+    background-color: transparent;
+    border: 2px solid #D2D2D2;
+    transition: all 0.3s;
+    padding: 11px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .formulario .campo:focus { 
+  
+      border: 2px solid #B3D9A5; 
+      color: #72A65F;
+  }
+  
+  .formulario textarea {
+    
+    height: 130px;
+    line-height: 130%;
+    resize:vertical;
+  
+  }
+  
+  .formulario .botao {
+  
+    width: 100%;
+    background:#eeff00;
+    color: #000;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    font-size:22px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:700;
+    font-family: 'fonte1';
+  }
+  
+  .formulario .botao:hover { background:#d3fd79; }
+  
+  /*ANTI-SPAN*/
+  .naoexibir { display:none; }

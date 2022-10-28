@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "fonte1";
+    src: url(../fontes/Kumbh_Sans/KumbhSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "fonteroboto";
+    src: url(../fontes/Roboto/Roboto-Regular.ttf);
+}
+
+
+.corpo_home{
+    color:#103f67;
+    background-color: #3B4047;
+   /* text-align: center;*/
+    height:625px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.loga{
+    width: 40%;
+    height: 80%;
+    background-color: #D9B039;
+    box-shadow: -15px 15px 0 #ABAAAA, -10px 15px 0 #3B4047;
+    border-radius: 40px;
+    margin-left: 90px;
+}
+
+.loga h1{
+    color: #FFFDFD;
+    font-family: 'fonte1';
+    margin-left: 35%;
+    font-size: 40px;
+}
+
+.loga p{
+    font-family: 'fonteroboto';
+    color: #FFFDFD;
+    font-size: 32px;
+    line-height: 50px;
+    margin-left: 10px;
+}
+
+.moeda{
+    width: 5%;
+    margin-left: 450px;
+    top: 75%;
+    position: absolute;
+}
+
+.imagem_lado{
+    width: 50%;
+}
+
+.cartao{
+    width: 38%;
+    height: 52%;
+    top:20%;
+    position: absolute;
+    right:120px;
+    float: left;
+}
+
+.imagem_lado p{
+    width: 47%;
+    text-align: center;
+    font-size: 45px;
+    color: #FFFDFD;
+    font-family: 'fonte1';
+    position: absolute;
+    float: left;
+    top: 67%;
+}
+
+.botao {
+              
+    font-family: 'fonte1';
+    width: 25%;
+    background:#eeff00;
+    color: #3B4047;
+    border-radius:25px;
+    border:0;
+    cursor:pointer;
+    font-size:22px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    font-weight:700;
+    position: absolute;
+    left: 60%;
+    top: 83%;
+    text-decoration: none;
+  }
+
+  .botao Link{
+    text-decoration: none;
+  }
+  
+  .botao {
+    border-color: #dbc834;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 40px 40px #FFE605 inset, 0 0 0 0 #b7d61a;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+  }
+  .botao:hover {
+    box-shadow: 0 0 10px 0 #dbd334 inset, 0 0 10px 4px #d3db34;
+  }
