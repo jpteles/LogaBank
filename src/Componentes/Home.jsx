@@ -14,7 +14,7 @@ function Home(){
             </div>
             <div className={styles.imagem_lado}>
             <img src={Cartao} alt="cartao" className={styles.cartao} />
-            <p>Garanta já seu cartão!</p>
+            <p>Garanta já o seu cartão!</p>
             <button type="submit" className={styles.botao}>Pedir meu cartão de crédito</button>
             </div>
             

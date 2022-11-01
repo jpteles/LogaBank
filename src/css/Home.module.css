@@ -13,7 +13,7 @@
     color:#103f67;
     background-color: #3B4047;
    /* text-align: center;*/
-    height:625px;
+    height:700px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -22,7 +22,7 @@
 
 .loga{
     width: 40%;
-    height: 80%;
+    height: 70%;
     background-color: #D9B039;
     box-shadow: -15px 15px 0 #ABAAAA, -10px 15px 0 #3B4047;
     border-radius: 40px;
@@ -58,7 +58,7 @@
 .cartao{
     width: 38%;
     height: 52%;
-    top:20%;
+    top:26%;
     position: absolute;
     right:120px;
     float: left;
@@ -72,7 +72,7 @@
     font-family: 'fonte1';
     position: absolute;
     float: left;
-    top: 67%;
+    top: 72%;
 }
 
 .botao {
@@ -91,7 +91,7 @@
     font-weight:700;
     position: absolute;
     left: 60%;
-    top: 83%;
+    top: 88%;
     text-decoration: none;
   }
 

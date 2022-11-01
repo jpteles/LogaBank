@@ -1,6 +1,6 @@
 .corpo_duvidas{
     width: 100%;
-    height: 800px;
+    height: 830px;
     background-color:#3B4047;
     float: left;
 }
@@ -106,7 +106,34 @@
     font-family: 'fonte1';
   }
   
-  .formulario .botao:hover { background:#d3fd79; }
   
   /*ANTI-SPAN*/
   .naoexibir { display:none; }
+
+  .botao {
+              
+    font-family: 'fonte1';
+    width: 25%;
+    background:#eeff00;
+    color: #3B4047;
+    border-radius:25px;
+    border:0;
+    cursor:pointer;
+    font-size:22px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    font-weight:700;
+    
+  }
+  
+  .botao {
+    border-color: #dbc834;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 40px 40px #FFE605 inset, 0 0 0 0 #b7d61a;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+  }
+  .botao:hover {
+    box-shadow: 0 0 10px 0 #dbd334 inset, 0 0 10px 4px #d3db34;
+  }

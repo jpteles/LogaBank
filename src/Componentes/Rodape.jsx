@@ -13,12 +13,6 @@ function Rodape(){
           <section className={styles.linha}>
                 <img src={Linha} alt="logo" />
           </section>
-          <section className={styles.redessociais}>
-              <h6>Redes Sociais</h6>
-              <p>Instagram</p>
-              <br />
-              <p>Facebook</p>
-          </section>
           <section className={styles.suporte}>
             <h6>Suporte</h6>
             <p>Ouvidoria: 5456-7654</p>
@@ -28,7 +22,7 @@ function Rodape(){
           <section className={styles.social}>
             <h6>Social</h6>
               <a href='https://www.linkedin.com/in/jo%C3%A3o-paulo-teles-25621922b/'><img src={Linkedin} alt="logo" /></a>
-              <a href='https://github.com/jpteles'><img src={Github} alt="logo" /></a>
+              <a href='https://github.com/jpteles/LogaBank'><img src={Github} alt="logo" /></a>
           </section>
         </footer>
 

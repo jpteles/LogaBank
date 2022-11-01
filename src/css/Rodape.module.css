@@ -16,7 +16,8 @@
 .logo_rodape img{
     width: 50%;
     height: auto;
-    padding-top: 20px;
+    padding-top: 30px;
+    border-radius: 10px;
 }
 
 .linha{
@@ -34,33 +35,6 @@
 }
 
 
-.redessociais{
-    width: 20%;
-    height: 50%;
-    float: left;
-    text-align: left;
-    margin-left: 130px;
-    font-size: 13px;
-    font-family: "fonte1";
-    top: 20px;
-    margin-top: 12px;
-}
-
-.redessociais h6{
-    margin: 20px;
-    margin-top: 20px;
-    color: white;
-    font-size: 12px;
-}
-
-.redessociais p{
-    text-decoration: none;
-    color: white;
-}
-
-.redessociais p:hover{
-    color: #bfff00;
-}
 
 .suporte{
     width: 20%;
@@ -71,6 +45,7 @@
     font-family: "fonte1";
     top: 20px;
     margin-top: 10px;
+    margin-left: 150px;
 }
 
 .suporte h6{
