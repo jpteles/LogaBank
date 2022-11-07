@@ -137,3 +137,22 @@
   .botao:hover {
     box-shadow: 0 0 10px 0 #dbd334 inset, 0 0 10px 4px #d3db34;
   }
+
+  @media screen and (max-width: 380px) { 
+
+    .corpo_duvidas{
+      width: 100%;
+      height: 790px;
+      background-color:#3B4047;
+      float: left;
+  }
+  
+  .corpo_duvidas h1{
+      text-align: center;
+      margin-top: 30px;
+      color: white;
+      font-size: 40px;
+      font-family: 'fonte1';
+  }
+
+}

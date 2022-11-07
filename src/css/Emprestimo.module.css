@@ -68,3 +68,62 @@
   .botao:hover {
     box-shadow: 0 0 10px 0 #dbd334 inset, 0 0 10px 4px #d3db34;
   }
+
+  @media screen and (max-width: 380px) {
+
+    
+    .corpo_emprestimo{
+        width: 100%;
+        height: 730px;
+        background-color:#3B4047;
+        float: left;
+    }
+    
+    .corpo_emprestimo h1{
+        text-align: center;
+        margin-top: 30px;
+        color: white;
+        font-size: 40px;
+        font-family: 'fonte1';
+    }
+    
+    .emprestimo{
+        background: linear-gradient(180deg, #FFE605 0%, #FFFFFF 100%);
+        width: 90%;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        margin-left:5%;
+    }
+    
+    .emprestimo p{
+        width: 100%;
+        font-family: 'fonteroboto';
+        font-size: 25px;
+        padding-left: 60px;
+        line-height: 25px;
+        padding-bottom: 5px;
+    }
+    
+    .emprestimo img{
+        width: 70%;
+    }
+    
+    .botao {
+                  
+        font-family: 'fonte1';
+        width: 60%;
+        background:#eeff00;
+        color: #3B4047;
+        border-radius:25px;
+        border:0;
+        cursor:pointer;
+        font-size:22px;
+        padding-top:10px;
+        padding-bottom:10px;
+        transition: all 0.3s;
+        font-weight:700;
+        margin-left: 20%;
+        margin-top: 8%;
+      }
+  }

@@ -75,3 +75,60 @@
     float: left;
     padding-left: 30px;
 }
+
+@media screen and (max-width: 380px) {
+    .corpo_conta{
+        height: 905px;
+    }
+
+    .corpo_conta h1{
+        text-align: center;
+        margin-top: 30px;
+        color: white;
+        font-size: 40px;
+        font-family: 'fonte1';
+    }
+
+    .corrente{
+        width: 98%;
+        height: 400px;
+        background: linear-gradient(180deg, #FFE605 0%, #FFFFFF 100%);
+        border-radius: 50px;
+        margin-left: 1%;
+        float: left;
+        
+    }
+    
+    .corrente p{
+        font-family: 'fonteroboto';    
+        font-size: 20px;
+        width: 55%;
+        margin-left: 10px;
+        float: left;
+    }
+    
+    .poupanca{
+        width: 98%;
+        height: 350px;
+        background: linear-gradient(180deg, #FFE605 0%, #FFFFFF 100%);
+        border-radius: 50px;
+        margin-left: 1%;
+        float: left;
+        margin-top: 5%;
+    }
+    
+    .poupanca p{
+        font-family: 'fonteroboto';    
+        font-size: 20px;
+        width: 50%;
+        padding-left: 10%;
+        float: left;
+        text-align: right;
+    }
+    
+    .poupanca img{
+        width: 38%;
+        float: left;
+        padding-left: 5px;
+    }
+}

@@ -25,7 +25,7 @@ function Contas(){
 
 
             <div className={styles.poupanca}>
-            <h2>Corrente</h2>
+            <h2>Poupança</h2>
             <img src={HomemCartao} alt="homemcartao"></img>
             <p>
             Rendimento de 200% no CDI
